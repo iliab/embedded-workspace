@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "defines": [
+                "ARCH=ARM",
+                "DEBUG=1"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "compilerArgs": [
+                "-std=gnu99"
+            ],
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
