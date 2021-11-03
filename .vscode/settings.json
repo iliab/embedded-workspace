@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c",
+        "*.sh": "shellscript",
+        "Makefile*": "makefile"
+    },
+    "C_Cpp.workspaceSymbols": "All",
+    "git.inputValidationSubjectLength": 72,
+    "git.ignoreLimitWarning": true
+}
