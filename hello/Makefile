@@ -46,7 +46,8 @@ EXEC = hello
 
 DBG_FLAGS := -O0 -g -D_DEBUG -ffunction-sections -fdata-sections
 GCC_FLAGS := -std=gnu99 -Wall -Wextra -Wshadow -Wdouble-promotion -Wformat=2 -Wundef -fno-common -fstack-usage -Wconversion -Wstrict-overflow -Wstrict-aliasing #-Werror Until the "Fixed reporting" will be fixed
-IDIR := -I./
+IDIR := -I./ -I$(COMMON_INC)include/
+
 CFLAGS :=$(DBG_FLAGS) -D$(ARCH_FLAG) $(GCC_FLAGS) $(IDIR)
 LIBS_PATH := 
 
