@@ -1,0 +1,33 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "hello ARM debug build",
+            "type": "shell",
+            "command": "make ARCH=arm all",
+            "group": "build",
+            "options": {
+                "cwd": "${workspaceFolder}/hello"
+            },
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": [ "$gcc" ]
+        },
+        {
+            "label": "hello X86 debug build",
+            "type": "shell",
+            "command": "make all",
+            "group": "build",
+            "options": {
+                "cwd": "${workspaceFolder}/hello"
+            },
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": [ "$gcc" ]
+        }
+    ]
+}
