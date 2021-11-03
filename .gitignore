@@ -30,6 +30,7 @@
 
 # Executables
 *.exe
+*.elf
 *.out
 *.app
 *.i*86
@@ -41,6 +42,19 @@
 *.su
 *.idb
 *.pdb
+core
+*.log
+*.bak*
+*.orig
+
+# Tags
+gitcommit.h
+GPATH
+GRTAGS
+GTAGS
+NppGTags.cfg
+tags
+*ctags
 
 # Kernel Module Compile Results
 *.mod*
